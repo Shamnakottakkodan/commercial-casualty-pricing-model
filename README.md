@@ -1,5 +1,5 @@
-Commercial Casualty Pricing Model
-A practical actuarial analytics project applying statistical modelling, underwriting insights, and technical pricing techniques used in commercial insurance.
+Commercial Casualty Pricing Model, 
+a practical actuarial analytics project applying statistical modelling, underwriting insights, and technical pricing techniques used in commercial insurance.
 
 🌟 Overview
 
