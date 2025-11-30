@@ -1,1 +1,801 @@
-
+policy_id,policy_year,line_of_business,industry,region,exposure_turnover_m,limit_m,deductible_gbp,num_claims,total_claims_cost_gbp,earned_premium_gbp
+1,2022,General Liability,Healthcare,Midlands,0.98,1,50000,0,0.0,6665.52
+2,2024,Casualty,Construction,London,11.44,2,25000,1,24167.18,28220.01
+3,2023,General Liability,Construction,North West,2.5,1,10000,2,21544.97,31293.21
+4,2023,General Liability,Healthcare,London,12.08,2,5000,1,7463.71,13523.7
+5,2021,Casualty,Logistics,North West,5.9,2,10000,2,20895.42,26021.35
+6,2021,General Liability,Construction,South East,6.96,5,10000,4,71126.76,103756.87
+7,2020,Employers Liability,Manufacturing,South East,10.02,1,5000,3,52799.07,101975.04
+8,2024,Employers Liability,Professional Services,Wales,6.69,2,0,0,0.0,15264.93
+9,2023,Casualty,Construction,Wales,7.18,1,10000,0,0.0,10398.71
+10,2023,Casualty,Manufacturing,Scotland,3.99,5,10000,0,0.0,15017.09
+11,2020,Employers Liability,Retail,Midlands,5.82,10,50000,1,15961.91,24149.25
+12,2024,Employers Liability,Manufacturing,Scotland,2.97,10,0,0,0.0,16862.75
+13,2024,Casualty,Professional Services,North West,3.52,5,10000,0,0.0,17045.09
+14,2021,Employers Liability,Manufacturing,Scotland,17.73,5,5000,1,25502.46,36496.49
+15,2021,Employers Liability,Healthcare,London,2.55,1,5000,0,0.0,15742.23
+16,2021,General Liability,Professional Services,North West,4.99,1,0,0,0.0,8063.58
+17,2022,General Liability,Logistics,Wales,4.85,2,5000,1,4696.95,6813.66
+18,2022,Casualty,Retail,South East,3.61,5,5000,0,0.0,8152.64
+19,2022,Casualty,Healthcare,Wales,6.42,10,5000,3,91999.4,124196.42
+20,2021,Casualty,Logistics,Midlands,6.77,1,10000,0,0.0,12465.32
+21,2023,Employers Liability,Manufacturing,North West,2.34,10,10000,0,0.0,12140.31
+22,2021,Casualty,Professional Services,North West,4.81,2,5000,0,0.0,18522.58
+23,2021,Casualty,Retail,London,2.1,2,25000,0,0.0,5521.1
+24,2022,Casualty,Healthcare,Midlands,7.78,1,5000,2,12138.98,21180.82
+25,2022,General Liability,Logistics,South East,5.07,1,0,1,11035.32,12733.0
+26,2023,Employers Liability,Logistics,North West,4.75,2,10000,2,44004.07,62995.44
+27,2021,Casualty,Retail,North West,7.11,2,0,1,9117.29,19165.24
+28,2022,Casualty,Manufacturing,London,3.7,1,5000,2,40251.27,61715.48
+29,2023,General Liability,Retail,Scotland,8.5,2,0,2,20099.22,37215.07
+30,2020,Casualty,Logistics,South East,2.31,5,0,1,3995.85,5214.35
+31,2023,Casualty,Construction,Wales,12.04,5,25000,4,60579.39,99473.48
+32,2021,Casualty,Healthcare,Midlands,3.05,10,0,3,67858.13,85884.1
+33,2020,Casualty,Retail,North West,1.37,1,5000,1,10792.81,17603.23
+34,2024,Casualty,Logistics,North West,3.56,1,0,1,7738.45,13409.39
+35,2024,Casualty,Manufacturing,Wales,3.29,5,10000,0,0.0,16952.72
+36,2024,Casualty,Logistics,South East,3.54,2,5000,0,0.0,6913.52
+37,2022,Employers Liability,Manufacturing,Scotland,5.27,1,10000,0,0.0,18549.52
+38,2020,Casualty,Retail,North West,9.66,1,5000,0,0.0,15084.18
+39,2023,General Liability,Manufacturing,South East,3.92,2,0,1,3616.99,6069.57
+40,2022,General Liability,Professional Services,Wales,2.76,1,5000,0,0.0,18462.93
+41,2021,Casualty,Professional Services,London,2.04,1,0,0,0.0,11707.41
+42,2022,General Liability,Professional Services,Scotland,3.23,1,5000,0,0.0,11554.32
+43,2020,Casualty,Construction,Midlands,1.2,1,5000,0,0.0,16768.05
+44,2024,Employers Liability,Retail,North West,2.7,2,25000,1,6936.62,10746.06
+45,2021,Casualty,Logistics,South East,10.71,2,0,6,95732.39,127291.35
+46,2023,Casualty,Logistics,London,2.52,2,10000,1,12121.98,19601.03
+47,2022,Casualty,Construction,Midlands,6.96,1,0,2,24560.44,39749.96
+48,2022,Employers Liability,Manufacturing,South East,1.9,1,5000,1,12603.6,19558.81
+49,2022,General Liability,Construction,South East,15.48,2,5000,2,30550.99,47942.02
+50,2021,General Liability,Manufacturing,Midlands,16.22,2,25000,1,2361.7,5000.0
+51,2024,Casualty,Manufacturing,London,6.78,2,0,1,19191.6,16740.73
+52,2023,General Liability,Healthcare,Wales,18.06,1,0,1,63432.04,90317.61
+53,2024,Casualty,Logistics,London,5.75,10,5000,1,19897.3,29032.96
+54,2024,Employers Liability,Professional Services,Scotland,7.67,1,0,1,12670.14,23752.36
+55,2023,Casualty,Manufacturing,North West,10.84,2,0,2,46227.75,76189.97
+56,2024,Casualty,Healthcare,Midlands,5.08,2,5000,1,11364.3,18793.98
+57,2020,Casualty,Logistics,Wales,1.51,2,0,0,0.0,19788.84
+58,2021,Casualty,Professional Services,Midlands,7.79,1,0,0,0.0,14599.35
+59,2020,General Liability,Manufacturing,Midlands,3.22,2,10000,0,0.0,17903.8
+60,2022,Casualty,Manufacturing,London,3.39,5,5000,1,13163.6,24078.83
+61,2022,General Liability,Construction,North West,5.52,1,0,2,28648.76,39432.23
+62,2021,Casualty,Construction,Scotland,6.66,1,0,1,4475.46,6681.19
+63,2024,General Liability,Logistics,South East,4.98,1,10000,0,0.0,7578.11
+64,2022,Casualty,Professional Services,South East,6.99,5,0,0,0.0,5888.35
+65,2021,Casualty,Manufacturing,Midlands,2.73,1,5000,0,0.0,6580.95
+66,2022,General Liability,Logistics,North West,4.35,10,0,2,50308.74,71236.02
+67,2021,Casualty,Logistics,Wales,8.12,2,5000,3,68844.63,89180.7
+68,2024,Casualty,Retail,London,15.5,10,5000,4,91844.65,179326.69
+69,2020,Employers Liability,Construction,North West,19.86,10,10000,6,96401.66,156519.92
+70,2024,Employers Liability,Professional Services,North West,6.07,2,25000,2,23676.79,39948.19
+71,2023,Casualty,Manufacturing,London,8.07,1,10000,1,31471.68,40572.99
+72,2021,Casualty,Logistics,Midlands,17.94,1,0,2,17022.86,28193.86
+73,2020,General Liability,Manufacturing,North West,2.8,1,0,0,0.0,18554.27
+74,2024,Casualty,Retail,South East,6.96,5,5000,0,0.0,6664.92
+75,2023,Casualty,Professional Services,London,7.67,1,0,1,12284.86,23941.02
+76,2023,Casualty,Logistics,Wales,12.35,1,0,1,4445.57,6554.7
+77,2023,General Liability,Manufacturing,Scotland,2.02,2,10000,1,11313.7,14126.98
+78,2020,General Liability,Construction,Midlands,2.32,10,5000,0,0.0,6900.69
+79,2022,Casualty,Retail,London,4.55,1,5000,1,13753.76,14833.11
+80,2021,Casualty,Professional Services,Scotland,5.84,1,5000,1,12614.74,23193.62
+81,2024,Casualty,Retail,Scotland,9.84,1,5000,2,95153.71,128447.71
+82,2023,General Liability,Construction,Wales,6.44,10,0,0,0.0,10030.07
+83,2022,Casualty,Professional Services,North West,4.03,2,25000,1,19199.51,27174.64
+84,2020,Casualty,Retail,Wales,6.0,1,0,1,25104.64,46307.25
+85,2022,General Liability,Healthcare,North West,5.53,1,10000,2,70694.76,139588.6
+86,2022,Casualty,Construction,North West,15.2,1,10000,7,93248.07,156759.07
+87,2023,General Liability,Construction,London,5.03,1,10000,0,0.0,6470.87
+88,2023,Casualty,Construction,London,3.43,10,5000,1,8029.52,13065.01
+89,2024,Casualty,Healthcare,Midlands,6.14,5,0,0,0.0,11544.52
+90,2022,Casualty,Healthcare,North West,5.15,2,5000,1,6867.26,13105.23
+91,2021,General Liability,Manufacturing,Scotland,1.49,5,10000,0,0.0,17500.66
+92,2023,Employers Liability,Logistics,South East,4.43,1,5000,0,0.0,10220.4
+93,2023,Employers Liability,Retail,Midlands,4.18,5,25000,2,26579.11,40505.42
+94,2023,Casualty,Manufacturing,London,3.06,5,5000,1,35745.04,54385.38
+95,2023,General Liability,Retail,Wales,9.25,1,0,3,20205.59,35642.48
+96,2022,Casualty,Logistics,Midlands,2.59,5,0,0,0.0,12917.11
+97,2022,Casualty,Healthcare,Midlands,6.17,1,5000,1,22235.21,41688.9
+98,2022,Employers Liability,Logistics,Midlands,4.04,1,5000,0,0.0,14762.04
+99,2020,Casualty,Healthcare,Midlands,4.83,1,10000,1,9318.65,16276.33
+100,2021,Casualty,Logistics,South East,5.98,2,10000,1,13149.43,18077.15
+101,2020,Casualty,Manufacturing,Wales,1.79,5,25000,0,0.0,12140.88
+102,2023,Casualty,Professional Services,Wales,5.13,10,25000,0,0.0,15338.66
+103,2022,Casualty,Manufacturing,Wales,22.25,2,25000,5,100279.79,152354.94
+104,2022,General Liability,Retail,North West,1.51,5,0,1,18785.75,32417.09
+105,2024,Casualty,Manufacturing,Scotland,4.3,5,10000,0,0.0,12032.28
+106,2021,Employers Liability,Construction,Wales,9.84,1,0,5,64965.04,134286.21
+107,2022,Employers Liability,Retail,Midlands,5.54,2,0,0,0.0,9406.43
+108,2023,Casualty,Logistics,Midlands,7.25,1,10000,2,20906.06,32172.19
+109,2021,Casualty,Retail,Wales,0.85,2,5000,0,0.0,7409.05
+110,2020,Casualty,Professional Services,Wales,6.81,10,0,0,0.0,10110.28
+111,2021,General Liability,Healthcare,Midlands,2.63,1,0,0,0.0,9859.69
+112,2021,Casualty,Logistics,North West,5.57,5,0,0,0.0,13806.99
+113,2024,General Liability,Retail,London,4.39,2,25000,0,0.0,6000.23
+114,2024,Casualty,Logistics,London,22.08,2,0,6,41062.06,46126.48
+115,2023,General Liability,Logistics,Wales,6.57,1,0,1,2933.03,5000.0
+116,2024,Casualty,Logistics,South East,4.14,1,5000,1,4411.19,8049.94
+117,2024,Casualty,Healthcare,Wales,1.56,1,5000,0,0.0,15062.4
+118,2021,Employers Liability,Manufacturing,Wales,4.88,1,25000,0,0.0,15546.41
+119,2024,General Liability,Logistics,London,7.97,1,0,2,18252.77,26979.21
+120,2022,Casualty,Construction,Midlands,4.24,2,5000,1,7712.24,8588.15
+121,2024,Employers Liability,Professional Services,Wales,3.15,1,10000,0,0.0,19343.69
+122,2024,Casualty,Healthcare,Midlands,3.0,5,25000,1,26196.1,35940.3
+123,2022,Employers Liability,Retail,Midlands,6.52,2,10000,2,34279.06,57069.33
+124,2021,General Liability,Healthcare,South East,7.63,2,25000,0,0.0,5968.04
+125,2021,Casualty,Retail,Midlands,11.62,2,0,2,19640.61,21770.95
+126,2022,Casualty,Healthcare,London,2.23,2,5000,1,7163.6,12703.37
+127,2024,Casualty,Retail,North West,6.48,10,5000,1,6051.93,10489.05
+128,2024,General Liability,Logistics,North West,4.12,1,25000,2,28295.31,39504.36
+129,2020,General Liability,Manufacturing,Scotland,4.2,1,0,0,0.0,10504.9
+130,2022,Casualty,Retail,Wales,5.94,5,0,2,51347.3,89195.3
+131,2022,Casualty,Retail,London,5.96,1,5000,0,0.0,17694.31
+132,2021,Employers Liability,Construction,Midlands,6.49,1,0,2,17008.87,24400.92
+133,2021,Employers Liability,Retail,North West,2.14,1,0,0,0.0,10345.5
+134,2022,General Liability,Construction,London,2.65,1,50000,0,0.0,17487.48
+135,2024,Casualty,Professional Services,North West,12.68,2,5000,2,17581.3,26058.05
+136,2022,Casualty,Logistics,Midlands,3.84,1,10000,2,45723.04,82216.93
+137,2022,Casualty,Construction,North West,5.55,5,10000,1,21200.59,22219.38
+138,2023,Employers Liability,Manufacturing,Wales,9.38,5,5000,2,35928.63,57906.89
+139,2022,Casualty,Logistics,Wales,6.2,2,0,3,50760.61,74178.09
+140,2024,General Liability,Construction,Scotland,6.57,2,0,4,58273.02,99235.72
+141,2024,Casualty,Logistics,Scotland,8.38,5,5000,2,24885.29,41228.84
+142,2021,General Liability,Logistics,North West,1.02,1,10000,0,0.0,10674.11
+143,2022,General Liability,Logistics,London,3.18,5,5000,2,41613.03,57333.38
+144,2022,Employers Liability,Professional Services,Wales,6.22,5,0,0,0.0,12097.59
+145,2021,Casualty,Manufacturing,London,11.84,5,5000,2,47459.47,81228.62
+146,2020,Casualty,Healthcare,London,4.69,2,25000,0,0.0,11286.32
+147,2023,Casualty,Healthcare,North West,2.48,1,25000,2,21940.73,34969.0
+148,2022,Employers Liability,Construction,London,2.53,2,25000,1,7541.4,10371.38
+149,2020,Employers Liability,Logistics,Wales,8.32,5,10000,3,55953.88,97250.96
+150,2021,General Liability,Construction,Midlands,3.85,1,5000,0,0.0,15469.58
+151,2024,General Liability,Professional Services,Scotland,4.46,5,10000,0,0.0,5023.69
+152,2021,General Liability,Professional Services,Midlands,6.89,1,0,2,26822.58,41136.33
+153,2021,Casualty,Retail,London,0.59,1,10000,0,0.0,11299.08
+154,2022,Employers Liability,Professional Services,Midlands,18.18,1,10000,3,23427.31,26614.83
+155,2024,Casualty,Retail,Wales,2.69,1,0,1,7065.98,9946.7
+156,2021,Casualty,Manufacturing,Wales,5.31,2,10000,4,52963.67,68639.02
+157,2023,General Liability,Construction,London,1.36,1,25000,1,23462.64,40959.12
+158,2023,Casualty,Manufacturing,North West,3.33,10,0,0,0.0,6077.22
+159,2021,Casualty,Professional Services,Midlands,10.71,2,25000,1,9348.84,16989.53
+160,2023,General Liability,Manufacturing,North West,1.17,1,0,0,0.0,16209.74
+161,2022,Casualty,Manufacturing,North West,9.86,2,5000,0,0.0,5795.69
+162,2023,General Liability,Manufacturing,South East,3.7,5,5000,0,0.0,13143.9
+163,2023,Casualty,Professional Services,London,6.3,5,5000,3,78092.95,130281.79
+164,2022,Casualty,Logistics,Scotland,7.1,1,25000,3,11883.31,14060.59
+165,2020,Casualty,Manufacturing,Wales,6.1,5,25000,0,0.0,8919.93
+166,2024,Casualty,Retail,Wales,2.45,5,10000,1,56305.62,76115.09
+167,2022,General Liability,Professional Services,London,3.47,1,0,0,0.0,18447.09
+168,2021,Casualty,Manufacturing,Scotland,1.61,1,25000,0,0.0,14543.28
+169,2020,General Liability,Logistics,Wales,6.32,2,0,1,9002.6,11893.03
+170,2023,Casualty,Professional Services,London,14.75,1,25000,1,12177.21,19791.51
+171,2023,General Liability,Healthcare,Wales,1.25,5,5000,0,0.0,18678.09
+172,2020,Employers Liability,Logistics,North West,2.63,1,0,0,0.0,16084.19
+173,2022,General Liability,Retail,Midlands,3.95,10,10000,1,49802.64,79005.88
+174,2021,Casualty,Manufacturing,Midlands,5.06,2,0,1,12963.42,21284.05
+175,2023,Casualty,Healthcare,Wales,8.29,1,0,4,52335.69,75754.53
+176,2021,Casualty,Healthcare,South East,4.03,1,5000,0,0.0,8056.64
+177,2023,General Liability,Professional Services,Scotland,3.59,2,0,1,7241.96,12564.98
+178,2022,Casualty,Healthcare,Scotland,9.7,5,0,0,0.0,16383.33
+179,2024,Casualty,Retail,Scotland,7.12,5,0,1,15847.19,28456.85
+180,2021,General Liability,Retail,North West,6.54,1,5000,0,0.0,12990.29
+181,2022,Casualty,Construction,Scotland,4.85,1,0,2,61958.68,101631.03
+182,2021,General Liability,Retail,Midlands,8.92,1,10000,3,45445.58,71332.63
+183,2024,Casualty,Logistics,North West,2.83,2,0,2,28488.01,41838.93
+184,2024,Casualty,Healthcare,London,2.57,1,25000,2,31205.19,43461.8
+185,2021,General Liability,Retail,Scotland,7.56,2,25000,1,4344.58,7104.94
+186,2023,Casualty,Professional Services,Scotland,1.44,2,0,0,0.0,6433.62
+187,2024,General Liability,Construction,London,4.78,10,10000,1,13771.85,21507.68
+188,2023,Casualty,Healthcare,Scotland,3.59,1,25000,1,12756.73,22397.96
+189,2022,Casualty,Construction,London,1.68,1,50000,0,0.0,12838.59
+190,2021,Employers Liability,Healthcare,North West,2.34,2,5000,1,22061.12,39929.55
+191,2020,General Liability,Professional Services,Midlands,4.15,2,0,1,6002.95,8503.92
+192,2024,General Liability,Construction,London,9.24,1,10000,6,50772.5,83176.6
+193,2024,Casualty,Manufacturing,South East,2.84,10,10000,0,0.0,10879.12
+194,2023,General Liability,Logistics,London,10.48,5,10000,0,0.0,12350.06
+195,2022,Casualty,Logistics,Scotland,4.68,1,5000,1,11618.28,17355.55
+196,2022,Casualty,Healthcare,North West,11.22,1,25000,4,37607.18,49729.74
+197,2023,Employers Liability,Manufacturing,Wales,2.94,2,50000,0,0.0,9747.53
+198,2024,Casualty,Construction,North West,4.33,5,0,0,0.0,5533.73
+199,2024,Employers Liability,Manufacturing,Wales,5.8,1,0,2,19470.29,31685.76
+200,2023,Casualty,Manufacturing,London,3.95,2,0,0,0.0,5270.57
+201,2023,Casualty,Construction,Midlands,8.73,2,25000,4,85490.42,121064.05
+202,2020,General Liability,Professional Services,South East,0.96,1,10000,0,0.0,19013.8
+203,2021,Employers Liability,Manufacturing,North West,24.43,2,10000,4,82204.71,118784.04
+204,2024,General Liability,Manufacturing,Scotland,8.17,10,5000,2,108564.17,184576.47
+205,2023,Employers Liability,Professional Services,Wales,3.97,1,5000,1,4889.77,6609.77
+206,2020,General Liability,Manufacturing,Scotland,3.04,1,5000,0,0.0,7089.45
+207,2021,General Liability,Manufacturing,Midlands,2.44,2,5000,1,8632.08,9617.89
+208,2023,Employers Liability,Manufacturing,Wales,7.04,5,10000,1,30912.52,62750.97
+209,2020,Casualty,Logistics,North West,8.99,10,50000,2,27010.49,48163.89
+210,2021,Casualty,Retail,London,4.0,2,25000,1,14727.49,23385.65
+211,2022,Casualty,Professional Services,Scotland,9.73,5,25000,1,7862.86,13101.75
+212,2023,Employers Liability,Manufacturing,Midlands,2.37,2,5000,0,0.0,15362.8
+213,2023,Employers Liability,Logistics,North West,2.1,2,5000,1,25852.59,37798.99
+214,2021,Casualty,Professional Services,North West,15.95,1,10000,2,62786.09,100180.35
+215,2023,General Liability,Healthcare,North West,6.78,1,25000,0,0.0,10402.43
+216,2021,Employers Liability,Healthcare,North West,11.91,1,0,5,85306.58,128774.73
+217,2022,Casualty,Manufacturing,Wales,2.47,2,5000,0,0.0,17857.89
+218,2023,General Liability,Logistics,North West,2.35,1,0,0,0.0,5725.94
+219,2023,Employers Liability,Logistics,Scotland,3.49,10,10000,0,0.0,7227.76
+220,2024,Casualty,Professional Services,Midlands,2.52,1,5000,0,0.0,11209.52
+221,2023,General Liability,Professional Services,Wales,7.34,1,5000,0,0.0,12250.88
+222,2023,Casualty,Logistics,North West,2.65,2,0,0,0.0,8952.61
+223,2020,Employers Liability,Professional Services,South East,1.97,5,5000,0,0.0,10347.15
+224,2022,Employers Liability,Logistics,South East,4.95,1,25000,0,0.0,7441.64
+225,2021,Employers Liability,Retail,Midlands,1.82,1,0,0,0.0,12337.01
+226,2021,Casualty,Logistics,London,1.27,10,10000,0,0.0,16907.65
+227,2024,Employers Liability,Healthcare,London,4.92,1,10000,1,6385.99,11304.54
+228,2022,Employers Liability,Professional Services,Wales,1.32,1,25000,0,0.0,14920.41
+229,2024,Casualty,Logistics,Wales,7.71,5,0,1,8009.38,12264.54
+230,2023,Employers Liability,Logistics,Wales,1.69,1,50000,0,0.0,15464.7
+231,2023,Casualty,Professional Services,London,0.93,2,5000,0,0.0,12948.43
+232,2022,General Liability,Retail,South East,3.65,1,50000,0,0.0,10875.13
+233,2023,Casualty,Retail,London,4.96,1,25000,1,4953.77,6496.28
+234,2022,Casualty,Professional Services,Scotland,6.32,1,0,0,0.0,14328.72
+235,2021,Casualty,Construction,North West,5.06,1,0,2,50837.11,61280.05
+236,2023,General Liability,Professional Services,Wales,2.14,1,0,1,6190.66,7096.11
+237,2021,Casualty,Professional Services,South East,7.38,1,5000,0,0.0,13654.51
+238,2020,General Liability,Retail,Midlands,8.78,5,0,1,16396.74,24056.69
+239,2023,Casualty,Retail,Midlands,1.93,1,0,0,0.0,9280.42
+240,2021,Casualty,Professional Services,North West,3.95,2,5000,0,0.0,19338.05
+241,2024,General Liability,Professional Services,South East,3.7,5,0,0,0.0,16011.63
+242,2024,General Liability,Professional Services,London,5.23,2,0,0,0.0,14925.4
+243,2024,Casualty,Retail,London,3.88,1,5000,2,15655.96,22885.38
+244,2022,General Liability,Professional Services,Scotland,4.27,10,0,0,0.0,17254.37
+245,2020,Employers Liability,Professional Services,Scotland,7.02,1,5000,0,0.0,6913.65
+246,2024,General Liability,Manufacturing,London,2.06,1,5000,1,11282.17,18080.94
+247,2022,Casualty,Construction,Midlands,7.51,5,5000,0,0.0,10029.94
+248,2024,Casualty,Healthcare,Wales,9.96,2,25000,1,13713.67,24431.41
+249,2024,Employers Liability,Construction,Midlands,14.07,2,5000,5,69768.28,115483.16
+250,2024,Casualty,Manufacturing,Scotland,1.0,1,5000,2,13445.87,22325.1
+251,2021,Employers Liability,Healthcare,North West,3.94,2,5000,1,21335.92,30015.66
+252,2022,General Liability,Professional Services,London,1.13,1,25000,0,0.0,7505.84
+253,2024,Employers Liability,Manufacturing,Scotland,0.82,10,25000,0,0.0,19892.46
+254,2022,General Liability,Professional Services,Scotland,4.96,1,25000,1,5036.3,7530.46
+255,2021,Employers Liability,Retail,Wales,3.39,5,10000,0,0.0,13445.19
+256,2023,Casualty,Logistics,London,5.53,2,0,1,12169.33,14913.96
+257,2024,General Liability,Manufacturing,Wales,6.3,5,0,1,60836.18,80706.75
+258,2023,Casualty,Retail,London,10.74,5,0,1,22099.35,38169.43
+259,2023,Casualty,Manufacturing,Wales,4.65,2,25000,3,89187.7,112295.8
+260,2020,General Liability,Manufacturing,Midlands,34.69,1,10000,5,54783.98,90226.38
+261,2023,Employers Liability,Retail,North West,5.55,1,10000,0,0.0,15257.65
+262,2024,Employers Liability,Healthcare,North West,16.28,1,5000,2,26821.26,40759.49
+263,2021,General Liability,Construction,London,0.88,5,25000,0,0.0,16880.67
+264,2022,Casualty,Professional Services,South East,11.53,5,0,2,53292.11,76413.35
+265,2024,Casualty,Manufacturing,Scotland,3.95,2,0,0,0.0,12317.34
+266,2023,General Liability,Professional Services,Scotland,1.15,1,5000,0,0.0,9718.72
+267,2023,Casualty,Logistics,London,6.02,1,5000,0,0.0,8031.25
+268,2023,Casualty,Retail,Wales,3.63,2,5000,1,15986.82,23771.49
+269,2022,Casualty,Professional Services,South East,6.73,2,25000,1,9983.75,15188.06
+270,2021,Casualty,Retail,Midlands,9.1,5,0,1,17511.77,29372.91
+271,2024,Casualty,Professional Services,Wales,1.58,10,5000,0,0.0,7620.63
+272,2024,Casualty,Construction,Wales,9.12,1,5000,4,40053.74,55724.75
+273,2024,Casualty,Construction,London,4.5,2,0,0,0.0,19989.74
+274,2024,Casualty,Construction,London,11.55,2,25000,2,90296.1,120650.26
+275,2022,Employers Liability,Construction,Scotland,3.88,1,10000,2,141486.92,188901.74
+276,2022,Casualty,Construction,London,3.22,1,10000,1,7558.57,9545.82
+277,2023,Casualty,Construction,London,4.57,1,25000,2,19497.87,24247.74
+278,2023,General Liability,Retail,London,4.81,5,10000,1,8285.3,14635.72
+279,2023,Casualty,Manufacturing,Scotland,2.82,2,0,1,14268.48,20210.19
+280,2023,Employers Liability,Professional Services,Midlands,3.17,2,10000,0,0.0,9690.24
+281,2024,General Liability,Construction,Midlands,1.9,10,5000,0,0.0,6588.74
+282,2022,Casualty,Retail,London,3.31,5,0,0,0.0,5279.7
+283,2022,Casualty,Retail,Scotland,7.2,1,0,1,2340.53,5000.0
+284,2020,Employers Liability,Retail,Midlands,4.07,2,10000,3,40084.34,58346.01
+285,2023,Employers Liability,Manufacturing,Wales,9.08,2,10000,2,30706.87,49382.46
+286,2020,Casualty,Professional Services,Midlands,3.94,5,0,0,0.0,16639.65
+287,2022,General Liability,Manufacturing,Midlands,1.65,5,10000,0,0.0,16963.14
+288,2022,Casualty,Healthcare,Scotland,6.81,2,25000,2,16610.78,18240.42
+289,2021,Employers Liability,Retail,Wales,2.8,1,0,0,0.0,7175.49
+290,2023,Casualty,Healthcare,Scotland,3.81,5,0,0,0.0,16052.08
+291,2020,Employers Liability,Logistics,London,10.66,1,10000,4,81269.76,132160.81
+292,2020,General Liability,Construction,North West,1.99,1,0,1,4906.04,9435.84
+293,2024,General Liability,Construction,Midlands,5.03,1,10000,0,0.0,5130.04
+294,2022,General Liability,Manufacturing,North West,4.36,1,0,0,0.0,18912.76
+295,2021,Casualty,Professional Services,Scotland,7.32,1,5000,0,0.0,5994.35
+296,2022,Casualty,Healthcare,Scotland,8.15,5,10000,0,0.0,10502.09
+297,2023,Casualty,Professional Services,Scotland,5.39,10,10000,0,0.0,11040.67
+298,2021,Casualty,Manufacturing,North West,3.48,1,25000,1,36729.68,65726.35
+299,2023,General Liability,Construction,Scotland,6.24,1,25000,0,0.0,5020.33
+300,2020,Casualty,Professional Services,London,11.42,1,10000,1,12649.81,24282.12
+301,2020,Casualty,Professional Services,Scotland,4.4,1,10000,1,5556.75,8524.46
+302,2022,Employers Liability,Construction,South East,3.72,1,0,2,26979.55,42036.44
+303,2022,Employers Liability,Healthcare,North West,5.88,10,5000,1,8117.09,12623.55
+304,2023,Employers Liability,Construction,South East,4.6,1,0,1,14362.6,29729.82
+305,2023,Employers Liability,Professional Services,Scotland,1.76,2,25000,1,15361.98,22866.25
+306,2024,Casualty,Healthcare,London,5.3,1,5000,3,47757.41,73212.38
+307,2022,Casualty,Healthcare,Midlands,1.75,5,5000,0,0.0,7322.24
+308,2022,General Liability,Construction,Wales,5.82,5,0,1,16779.26,22596.26
+309,2023,General Liability,Professional Services,Wales,2.57,10,10000,0,0.0,10544.65
+310,2021,Casualty,Manufacturing,Scotland,4.6,5,25000,2,57894.59,78236.97
+311,2022,Employers Liability,Professional Services,London,5.89,1,5000,1,15279.53,17125.0
+312,2020,Casualty,Retail,North West,24.97,1,25000,4,51581.97,89850.13
+313,2020,Casualty,Logistics,South East,7.54,2,0,0,0.0,10917.27
+314,2024,General Liability,Manufacturing,South East,11.65,1,5000,4,67444.84,106200.92
+315,2024,General Liability,Healthcare,South East,16.61,2,25000,1,11948.02,24506.37
+316,2023,General Liability,Manufacturing,North West,6.31,1,5000,2,23050.08,36403.57
+317,2022,Casualty,Healthcare,Wales,5.47,1,50000,1,7985.94,12717.71
+318,2021,Employers Liability,Healthcare,London,2.12,2,0,0,0.0,14546.43
+319,2021,Casualty,Manufacturing,North West,4.13,2,0,2,26103.51,40398.31
+320,2021,Casualty,Healthcare,South East,2.7,5,25000,0,0.0,17511.67
+321,2022,Employers Liability,Healthcare,Scotland,3.38,1,0,1,20740.49,29155.92
+322,2023,Employers Liability,Retail,Midlands,16.6,2,50000,1,12807.25,23000.38
+323,2023,Employers Liability,Professional Services,North West,4.86,1,50000,0,0.0,8894.16
+324,2021,Employers Liability,Professional Services,North West,2.43,1,0,0,0.0,11457.4
+325,2024,General Liability,Logistics,London,11.73,2,5000,4,58171.62,68078.81
+326,2023,General Liability,Logistics,London,8.75,1,0,2,40621.7,60610.06
+327,2023,Casualty,Retail,North West,9.07,1,5000,1,18006.78,28130.92
+328,2023,Casualty,Logistics,South East,1.1,1,0,0,0.0,19676.67
+329,2022,Casualty,Manufacturing,Midlands,17.53,1,0,2,20586.8,36212.0
+330,2021,Casualty,Construction,London,3.03,1,5000,0,0.0,17150.27
+331,2022,General Liability,Construction,South East,7.73,1,5000,6,71681.95,120880.3
+332,2023,Casualty,Construction,Scotland,26.22,1,50000,5,46211.17,71945.65
+333,2020,Casualty,Retail,London,20.26,1,25000,3,77850.77,137942.77
+334,2021,Casualty,Retail,South East,2.26,2,10000,0,0.0,10372.17
+335,2020,General Liability,Healthcare,South East,1.63,1,5000,0,0.0,10679.64
+336,2020,Casualty,Construction,Midlands,12.2,1,25000,4,49441.73,76209.53
+337,2024,Employers Liability,Manufacturing,Midlands,4.95,1,5000,2,34310.7,62910.15
+338,2023,Casualty,Logistics,Scotland,3.16,2,10000,1,8114.96,8279.95
+339,2022,Casualty,Manufacturing,South East,6.92,5,50000,1,9605.17,14332.23
+340,2020,General Liability,Logistics,Wales,4.0,5,5000,1,22276.67,49600.51
+341,2022,Employers Liability,Construction,South East,7.32,5,10000,3,74208.66,122031.58
+342,2022,Casualty,Construction,Midlands,4.7,2,25000,0,0.0,13828.79
+343,2021,General Liability,Construction,Wales,7.43,2,25000,1,18316.56,27297.83
+344,2022,General Liability,Retail,London,2.4,2,10000,0,0.0,11116.09
+345,2022,Casualty,Logistics,London,12.15,1,0,7,96531.59,175550.0
+346,2023,Employers Liability,Retail,North West,7.3,1,5000,1,5626.87,9545.94
+347,2023,General Liability,Retail,Midlands,7.05,1,0,1,21341.04,32829.61
+348,2020,General Liability,Professional Services,North West,2.05,10,10000,0,0.0,6681.48
+349,2022,Employers Liability,Manufacturing,Wales,14.73,2,0,3,44159.26,73766.47
+350,2023,Employers Liability,Manufacturing,Midlands,4.44,5,25000,2,18053.46,23760.11
+351,2022,General Liability,Healthcare,Scotland,7.46,1,0,1,12938.85,11801.81
+352,2024,Employers Liability,Retail,South East,3.58,2,0,0,0.0,18454.91
+353,2023,General Liability,Logistics,Scotland,5.38,1,5000,2,8855.82,14691.01
+354,2021,General Liability,Professional Services,Wales,5.52,1,10000,2,28730.64,43397.92
+355,2020,General Liability,Professional Services,Midlands,0.62,5,0,0,0.0,12276.98
+356,2023,General Liability,Manufacturing,Wales,6.74,2,5000,1,19412.63,32020.41
+357,2020,Casualty,Retail,South East,17.74,1,5000,1,8427.92,10968.64
+358,2023,Employers Liability,Healthcare,London,6.54,5,0,3,57152.16,88823.53
+359,2024,Employers Liability,Retail,London,2.29,1,0,0,0.0,13188.54
+360,2023,Casualty,Construction,Wales,7.06,10,25000,0,0.0,5513.92
+361,2022,Employers Liability,Retail,North West,9.41,1,5000,0,0.0,7555.51
+362,2023,Casualty,Construction,Midlands,6.42,1,0,4,50605.18,60043.12
+363,2022,Casualty,Construction,Midlands,4.26,1,25000,0,0.0,12495.59
+364,2022,General Liability,Healthcare,London,3.78,1,50000,0,0.0,13909.11
+365,2024,Casualty,Logistics,Scotland,3.77,1,10000,2,30677.91,45008.8
+366,2022,Employers Liability,Manufacturing,South East,7.3,2,5000,1,12016.03,15507.53
+367,2024,Employers Liability,Retail,Scotland,1.67,5,25000,0,0.0,18566.02
+368,2024,General Liability,Construction,Scotland,3.45,5,50000,1,4666.68,6902.71
+369,2021,Casualty,Retail,Wales,13.69,1,10000,3,71474.59,125321.5
+370,2020,Casualty,Logistics,London,14.07,2,5000,3,24585.82,33443.9
+371,2021,General Liability,Manufacturing,London,1.59,1,5000,0,0.0,14727.91
+372,2020,Employers Liability,Logistics,London,2.03,1,10000,1,26548.99,51425.57
+373,2020,General Liability,Manufacturing,Wales,3.71,2,0,0,0.0,9641.49
+374,2023,Casualty,Professional Services,North West,8.37,2,5000,1,6841.07,11375.91
+375,2020,General Liability,Manufacturing,Scotland,1.25,1,25000,0,0.0,5367.2
+376,2022,General Liability,Healthcare,Wales,4.31,1,10000,1,3718.01,7787.9
+377,2024,General Liability,Logistics,Midlands,3.22,10,5000,4,103975.9,145626.46
+378,2020,Casualty,Construction,South East,11.34,1,10000,4,61190.17,91747.69
+379,2024,General Liability,Professional Services,North West,1.39,2,0,0,0.0,18702.66
+380,2021,General Liability,Healthcare,Midlands,4.78,2,5000,0,0.0,11235.19
+381,2021,Employers Liability,Retail,Scotland,3.4,1,10000,0,0.0,11892.44
+382,2023,Casualty,Logistics,London,12.54,1,0,4,100203.89,183052.0
+383,2023,General Liability,Construction,Scotland,6.81,1,0,2,46501.04,55751.17
+384,2024,Employers Liability,Manufacturing,Wales,2.97,5,50000,0,0.0,16766.12
+385,2023,Casualty,Construction,South East,8.14,2,0,1,11200.42,20517.32
+386,2024,Employers Liability,Retail,Wales,3.41,2,0,0,0.0,18589.6
+387,2021,General Liability,Professional Services,North West,9.02,10,50000,1,74624.63,127874.29
+388,2021,Casualty,Professional Services,North West,3.8,5,10000,1,5993.15,9774.74
+389,2023,Casualty,Logistics,South East,9.38,2,10000,2,23919.17,41421.13
+390,2024,General Liability,Professional Services,Midlands,6.08,2,25000,2,46245.21,77411.66
+391,2024,Casualty,Logistics,Midlands,43.92,2,0,10,137217.06,172579.46
+392,2022,General Liability,Logistics,North West,4.32,2,10000,0,0.0,12591.25
+393,2022,Casualty,Logistics,North West,5.86,2,5000,0,0.0,15758.29
+394,2023,General Liability,Manufacturing,London,3.2,2,25000,1,17731.77,29400.67
+395,2022,Casualty,Healthcare,Midlands,4.49,1,5000,0,0.0,17698.42
+396,2024,Employers Liability,Logistics,South East,0.68,2,10000,0,0.0,5958.0
+397,2024,Employers Liability,Logistics,Midlands,6.21,1,5000,0,0.0,5474.3
+398,2022,Employers Liability,Healthcare,London,11.47,1,5000,3,29215.6,49740.61
+399,2023,General Liability,Construction,Wales,5.92,1,10000,2,26593.81,43624.9
+400,2023,Casualty,Logistics,North West,1.79,2,10000,0,0.0,17354.89
+401,2021,General Liability,Manufacturing,North West,2.56,2,10000,0,0.0,15240.91
+402,2024,Casualty,Professional Services,London,0.82,1,5000,0,0.0,15511.38
+403,2022,Casualty,Professional Services,South East,8.89,2,5000,2,20341.26,30044.23
+404,2024,Casualty,Retail,North West,2.22,2,10000,0,0.0,15900.06
+405,2022,Casualty,Retail,Scotland,4.39,1,25000,1,12182.56,22982.11
+406,2024,General Liability,Professional Services,North West,4.02,2,10000,0,0.0,8206.1
+407,2022,General Liability,Professional Services,Scotland,12.7,5,25000,1,22403.47,40272.26
+408,2020,Casualty,Manufacturing,London,4.76,5,25000,0,0.0,14859.78
+409,2024,Casualty,Healthcare,London,7.89,2,5000,3,29008.27,36974.82
+410,2020,Employers Liability,Retail,North West,6.57,2,10000,2,35762.62,52971.58
+411,2022,Casualty,Healthcare,Midlands,11.61,1,25000,2,14005.09,21697.4
+412,2024,Casualty,Manufacturing,Scotland,3.79,1,10000,1,5754.28,10709.16
+413,2024,Casualty,Professional Services,South East,16.59,1,25000,0,0.0,19661.38
+414,2023,General Liability,Logistics,North West,1.12,10,10000,0,0.0,9225.19
+415,2023,General Liability,Healthcare,South East,8.17,1,5000,1,9401.12,8432.72
+416,2022,Casualty,Professional Services,North West,2.44,1,0,0,0.0,6811.69
+417,2021,Casualty,Professional Services,Midlands,3.17,5,5000,0,0.0,11391.73
+418,2022,General Liability,Construction,Midlands,6.68,10,50000,3,75601.47,98284.13
+419,2023,General Liability,Healthcare,Midlands,6.64,5,10000,3,39728.6,53803.76
+420,2023,Casualty,Logistics,Wales,6.85,1,5000,1,10014.7,14253.62
+421,2023,Employers Liability,Healthcare,Midlands,1.7,1,25000,1,8187.98,10809.72
+422,2023,Casualty,Professional Services,London,12.36,1,5000,0,0.0,16011.1
+423,2020,Casualty,Logistics,London,2.39,1,5000,0,0.0,5461.63
+424,2022,Employers Liability,Manufacturing,Wales,2.62,1,10000,0,0.0,14261.94
+425,2020,Casualty,Construction,Scotland,7.0,2,10000,2,26364.32,35861.01
+426,2022,General Liability,Professional Services,South East,3.67,10,0,0,0.0,16409.92
+427,2022,Casualty,Retail,North West,5.56,1,5000,0,0.0,12210.85
+428,2024,Casualty,Retail,North West,0.99,2,5000,0,0.0,18973.47
+429,2022,Employers Liability,Construction,Wales,5.47,2,5000,0,0.0,15618.21
+430,2021,Casualty,Manufacturing,London,5.22,1,5000,1,6022.1,8201.06
+431,2021,Employers Liability,Professional Services,North West,3.14,2,5000,1,14985.86,25220.57
+432,2023,Casualty,Healthcare,London,1.05,1,0,0,0.0,16659.43
+433,2023,Casualty,Construction,Scotland,3.86,1,5000,1,43990.22,63189.88
+434,2021,Casualty,Manufacturing,South East,4.37,5,0,1,13261.78,23641.05
+435,2020,General Liability,Healthcare,Scotland,3.47,1,5000,0,0.0,8200.45
+436,2023,Casualty,Retail,Wales,1.24,10,25000,0,0.0,10775.76
+437,2020,Employers Liability,Retail,Midlands,13.69,1,10000,0,0.0,16094.12
+438,2024,Casualty,Healthcare,Midlands,2.87,2,5000,0,0.0,11264.59
+439,2023,Employers Liability,Construction,Midlands,3.84,2,0,0,0.0,16049.78
+440,2020,Casualty,Retail,Scotland,0.83,1,0,0,0.0,6703.47
+441,2020,Employers Liability,Professional Services,North West,13.69,1,5000,0,0.0,17090.18
+442,2024,General Liability,Logistics,South East,3.23,2,0,0,0.0,8798.11
+443,2022,General Liability,Healthcare,Midlands,4.8,5,5000,0,0.0,8733.93
+444,2022,Employers Liability,Healthcare,Wales,9.82,5,0,1,16874.37,23218.19
+445,2024,General Liability,Retail,Wales,2.79,2,25000,0,0.0,5394.47
+446,2024,General Liability,Construction,Midlands,8.8,5,5000,2,50561.09,79513.9
+447,2024,Casualty,Professional Services,Midlands,1.06,2,0,1,17226.39,27567.65
+448,2023,Casualty,Construction,South East,6.59,5,25000,0,0.0,18614.25
+449,2022,Employers Liability,Manufacturing,Midlands,13.47,2,5000,5,63146.98,72629.9
+450,2020,General Liability,Manufacturing,South East,2.99,2,0,0,0.0,17696.53
+451,2023,General Liability,Logistics,Wales,9.81,5,5000,4,95420.65,134600.34
+452,2023,Casualty,Retail,Midlands,16.18,1,5000,2,13638.61,20946.49
+453,2022,Casualty,Retail,Scotland,3.75,5,10000,0,0.0,13028.79
+454,2024,Casualty,Retail,Scotland,3.54,2,0,0,0.0,15571.93
+455,2021,General Liability,Logistics,Wales,2.39,1,5000,0,0.0,10087.47
+456,2022,Casualty,Manufacturing,South East,3.14,1,0,1,25038.43,36617.37
+457,2020,Casualty,Construction,Scotland,2.53,1,0,0,0.0,16573.83
+458,2022,Casualty,Logistics,South East,2.39,2,25000,1,7615.74,10699.69
+459,2020,Casualty,Logistics,Scotland,10.37,5,10000,0,0.0,10268.66
+460,2021,General Liability,Construction,Scotland,2.58,1,5000,0,0.0,17179.72
+461,2021,Casualty,Retail,South East,5.37,5,5000,1,21718.92,28826.09
+462,2023,General Liability,Professional Services,North West,4.6,5,0,0,0.0,11537.73
+463,2023,Casualty,Construction,Scotland,12.79,1,25000,2,24933.22,35533.66
+464,2023,Casualty,Manufacturing,Midlands,3.15,5,0,0,0.0,11784.12
+465,2024,Casualty,Healthcare,Wales,5.85,10,0,2,54273.01,82463.22
+466,2022,Casualty,Healthcare,North West,7.8,5,5000,1,7337.43,11174.4
+467,2021,Casualty,Logistics,South East,12.72,5,5000,2,49727.82,79447.4
+468,2024,Casualty,Healthcare,North West,3.12,10,5000,0,0.0,12638.34
+469,2021,General Liability,Professional Services,London,2.91,2,0,1,52204.1,79260.19
+470,2024,Casualty,Retail,London,2.13,1,5000,0,0.0,14413.34
+471,2020,General Liability,Manufacturing,Scotland,21.44,5,5000,2,64779.14,79083.43
+472,2024,Employers Liability,Professional Services,Scotland,11.81,2,0,0,0.0,5347.2
+473,2020,General Liability,Manufacturing,Midlands,4.35,2,25000,2,15262.63,19536.47
+474,2024,Casualty,Manufacturing,Wales,17.32,1,0,1,30512.5,20913.11
+475,2022,Casualty,Retail,North West,4.17,5,5000,0,0.0,7367.46
+476,2024,Casualty,Logistics,London,7.44,1,10000,0,0.0,16464.86
+477,2020,Casualty,Healthcare,Scotland,4.51,10,0,4,134296.06,208941.38
+478,2023,Employers Liability,Retail,Wales,5.92,1,10000,1,12863.57,13479.53
+479,2024,Casualty,Professional Services,North West,5.5,1,25000,0,0.0,7203.63
+480,2022,Casualty,Logistics,Scotland,3.33,2,0,1,27835.4,42202.38
+481,2023,General Liability,Professional Services,Scotland,9.63,1,25000,1,10023.98,19105.59
+482,2023,General Liability,Logistics,London,7.4,2,5000,7,94426.1,152431.03
+483,2022,General Liability,Professional Services,London,9.2,10,0,3,66840.62,88610.79
+484,2023,Casualty,Retail,Scotland,5.61,5,5000,1,12405.72,17039.55
+485,2023,Casualty,Logistics,South East,2.38,1,5000,0,0.0,12829.02
+486,2024,General Liability,Logistics,Scotland,14.83,1,10000,2,10385.1,17055.12
+487,2020,Casualty,Manufacturing,Wales,3.73,5,10000,0,0.0,14080.15
+488,2021,Casualty,Manufacturing,Scotland,5.78,10,25000,1,14254.22,18868.69
+489,2024,Casualty,Construction,Midlands,6.99,2,50000,5,59524.16,71159.55
+490,2024,Casualty,Professional Services,Midlands,5.76,2,10000,0,0.0,6296.69
+491,2022,Casualty,Manufacturing,Midlands,8.51,1,10000,2,15708.67,27317.8
+492,2023,Casualty,Construction,South East,9.5,5,5000,0,0.0,16391.43
+493,2021,General Liability,Manufacturing,South East,3.83,2,5000,1,7871.22,11351.5
+494,2021,General Liability,Professional Services,Scotland,13.98,1,0,1,18545.31,20310.26
+495,2022,Employers Liability,Logistics,Midlands,3.72,1,10000,1,11936.92,20121.97
+496,2022,Casualty,Healthcare,South East,5.67,5,5000,0,0.0,9522.33
+497,2023,Casualty,Professional Services,London,3.42,1,0,0,0.0,19520.31
+498,2020,Casualty,Retail,Scotland,2.8,1,0,0,0.0,15544.21
+499,2024,General Liability,Manufacturing,Wales,9.31,2,5000,4,71562.87,88316.45
+500,2024,General Liability,Manufacturing,North West,39.86,1,5000,7,94806.42,140554.67
+501,2023,Casualty,Logistics,Scotland,3.48,1,5000,0,0.0,10781.32
+502,2022,Employers Liability,Retail,North West,10.49,5,10000,2,125622.79,162633.14
+503,2022,Casualty,Logistics,Midlands,3.57,5,5000,0,0.0,13013.71
+504,2024,General Liability,Retail,North West,4.45,5,10000,2,67417.42,108089.06
+505,2023,General Liability,Healthcare,Midlands,15.34,5,0,4,47791.75,86223.18
+506,2021,Employers Liability,Manufacturing,London,2.11,2,0,0,0.0,5923.35
+507,2024,General Liability,Manufacturing,North West,1.76,5,5000,0,0.0,14831.24
+508,2024,Employers Liability,Healthcare,Scotland,4.22,1,5000,3,25563.79,32000.86
+509,2024,Casualty,Construction,Midlands,7.13,2,0,5,155888.76,278771.6
+510,2023,Employers Liability,Logistics,Scotland,6.2,10,5000,1,85509.85,149854.47
+511,2023,Casualty,Healthcare,South East,5.77,1,0,1,17768.99,24690.58
+512,2022,Employers Liability,Logistics,Midlands,4.59,1,5000,0,0.0,16750.05
+513,2024,General Liability,Professional Services,North West,7.77,2,5000,0,0.0,10284.54
+514,2024,Employers Liability,Manufacturing,Midlands,0.58,1,10000,0,0.0,9484.22
+515,2020,Casualty,Logistics,Scotland,2.65,1,25000,0,0.0,13397.37
+516,2020,General Liability,Retail,London,4.2,5,0,1,16328.06,24382.68
+517,2022,General Liability,Logistics,Midlands,7.34,10,50000,2,78164.72,116058.56
+518,2024,General Liability,Professional Services,North West,12.72,2,5000,4,52418.91,83640.03
+519,2024,Casualty,Manufacturing,South East,2.41,1,10000,1,8111.96,12491.26
+520,2021,Casualty,Healthcare,Wales,12.43,1,10000,1,18896.86,26836.25
+521,2023,Casualty,Professional Services,London,3.26,5,10000,1,24528.5,38745.74
+522,2022,Casualty,Manufacturing,South East,4.09,2,5000,0,0.0,12883.69
+523,2024,Employers Liability,Logistics,Midlands,6.73,1,5000,2,36488.19,46314.87
+524,2024,Casualty,Construction,Scotland,3.89,2,0,3,68270.24,104857.9
+525,2024,Employers Liability,Construction,Scotland,9.75,1,0,1,20706.01,31315.48
+526,2022,Casualty,Retail,North West,3.38,2,5000,1,4561.91,7862.3
+527,2022,Casualty,Manufacturing,Scotland,3.41,5,5000,2,14676.08,19662.67
+528,2021,General Liability,Construction,London,9.36,2,5000,5,101031.67,160916.34
+529,2020,General Liability,Healthcare,Scotland,2.63,2,0,1,7494.84,8817.38
+530,2024,Casualty,Manufacturing,North West,5.33,1,10000,1,11941.97,17614.8
+531,2024,General Liability,Healthcare,Wales,1.4,5,25000,1,21513.55,35399.77
+532,2024,General Liability,Healthcare,Midlands,16.02,2,25000,7,114934.38,191357.46
+533,2024,Casualty,Construction,Midlands,10.43,1,5000,0,0.0,17362.7
+534,2023,Employers Liability,Manufacturing,Scotland,30.72,2,10000,4,53088.69,91235.43
+535,2023,Employers Liability,Logistics,South East,11.44,1,25000,1,3919.63,6504.64
+536,2024,General Liability,Professional Services,Midlands,2.03,5,5000,0,0.0,8012.43
+537,2024,Casualty,Construction,Wales,7.16,2,5000,4,83079.98,163643.49
+538,2021,General Liability,Construction,Scotland,2.36,10,25000,1,70153.17,100365.45
+539,2022,Casualty,Logistics,North West,13.53,1,5000,2,33746.33,62665.88
+540,2021,Casualty,Manufacturing,Wales,2.07,5,5000,1,17297.58,30110.32
+541,2024,Casualty,Manufacturing,Scotland,2.0,2,0,1,16592.7,24507.46
+542,2023,Casualty,Healthcare,Wales,1.45,5,0,0,0.0,18752.1
+543,2021,Employers Liability,Logistics,Midlands,3.18,1,25000,1,12080.38,18075.38
+544,2023,General Liability,Logistics,North West,2.77,2,10000,0,0.0,13402.58
+545,2023,General Liability,Manufacturing,Scotland,1.85,5,5000,0,0.0,7307.39
+546,2022,Casualty,Healthcare,London,18.04,1,0,9,158468.97,258770.83
+547,2021,Casualty,Construction,North West,6.49,1,5000,0,0.0,18998.38
+548,2023,Casualty,Retail,London,5.98,2,5000,2,26608.72,38319.3
+549,2022,Employers Liability,Professional Services,Wales,13.63,2,0,1,28556.86,30212.81
+550,2023,Casualty,Construction,South East,5.36,1,25000,0,0.0,5109.09
+551,2022,Employers Liability,Manufacturing,North West,2.65,1,0,0,0.0,5913.68
+552,2024,General Liability,Professional Services,Wales,1.36,1,5000,0,0.0,11432.59
+553,2023,Casualty,Retail,London,2.55,5,10000,0,0.0,10989.89
+554,2023,General Liability,Retail,Midlands,12.86,2,0,1,4343.1,7355.38
+555,2024,Casualty,Healthcare,Midlands,1.86,5,25000,1,10646.84,15390.88
+556,2022,Employers Liability,Professional Services,South East,5.74,10,10000,2,39228.35,49360.62
+557,2021,Employers Liability,Healthcare,North West,9.24,2,10000,5,80376.86,129546.39
+558,2020,Casualty,Construction,North West,5.47,1,0,2,23743.86,34906.1
+559,2023,Casualty,Logistics,North West,5.93,1,0,0,0.0,9472.92
+560,2023,General Liability,Logistics,Wales,7.09,1,0,2,12765.33,19855.42
+561,2023,Employers Liability,Logistics,South East,5.84,10,5000,3,81914.53,174174.1
+562,2021,Casualty,Professional Services,North West,13.82,2,10000,3,40008.68,42960.8
+563,2021,General Liability,Logistics,Wales,2.16,1,25000,0,0.0,7371.9
+564,2020,General Liability,Construction,Midlands,5.3,1,10000,1,6737.99,10853.41
+565,2022,General Liability,Healthcare,London,1.26,2,25000,0,0.0,10077.9
+566,2023,Casualty,Professional Services,Wales,1.05,2,10000,0,0.0,5307.67
+567,2022,General Liability,Healthcare,Midlands,4.23,1,5000,1,11316.78,18735.41
+568,2022,Employers Liability,Professional Services,Midlands,6.56,10,0,0,0.0,18077.99
+569,2024,Casualty,Healthcare,London,14.03,2,10000,2,13661.49,14086.38
+570,2022,Casualty,Retail,Midlands,24.38,1,0,4,46607.4,64252.23
+571,2022,Employers Liability,Healthcare,South East,11.29,5,0,5,111649.33,180379.21
+572,2023,Casualty,Logistics,London,7.46,1,5000,2,19625.33,29152.74
+573,2022,Employers Liability,Retail,Midlands,5.01,10,25000,0,0.0,7935.62
+574,2023,Casualty,Healthcare,Scotland,1.53,10,0,0,0.0,5417.75
+575,2024,Casualty,Professional Services,Wales,4.05,5,10000,1,10278.9,13144.0
+576,2024,Employers Liability,Professional Services,Midlands,11.06,5,25000,1,5884.35,8715.34
+577,2021,Casualty,Professional Services,South East,8.4,1,5000,0,0.0,19620.18
+578,2024,General Liability,Manufacturing,North West,1.82,10,0,1,58297.69,92795.69
+579,2022,Casualty,Construction,Midlands,6.89,2,0,2,20574.94,38741.0
+580,2021,General Liability,Professional Services,North West,6.49,5,10000,1,7931.77,13410.48
+581,2022,Casualty,Retail,Scotland,5.73,10,10000,2,163802.54,268899.72
+582,2024,Casualty,Professional Services,Midlands,4.4,10,25000,2,67164.61,118689.57
+583,2022,Employers Liability,Manufacturing,London,7.14,5,5000,0,0.0,12534.12
+584,2022,Casualty,Logistics,North West,7.3,1,0,2,28493.06,51134.91
+585,2023,General Liability,Retail,Scotland,2.86,10,0,0,0.0,10353.5
+586,2021,Casualty,Manufacturing,London,6.16,2,10000,1,28677.5,46074.1
+587,2020,General Liability,Logistics,London,3.93,10,0,3,57391.87,85812.5
+588,2021,Casualty,Retail,London,1.58,2,5000,0,0.0,15906.57
+589,2021,Employers Liability,Healthcare,London,3.02,1,5000,2,50453.74,66816.06
+590,2021,Casualty,Construction,Midlands,1.5,1,0,0,0.0,6609.52
+591,2021,Casualty,Construction,Wales,8.9,2,0,4,17779.11,25507.84
+592,2023,Casualty,Manufacturing,Midlands,5.75,5,5000,2,50046.55,72664.03
+593,2021,Casualty,Logistics,Midlands,3.49,1,0,1,7189.66,9356.54
+594,2022,General Liability,Construction,Scotland,12.11,2,0,1,11763.04,21993.36
+595,2024,Casualty,Logistics,Scotland,4.7,1,10000,0,0.0,16336.87
+596,2022,Employers Liability,Logistics,Wales,1.65,5,25000,0,0.0,19465.75
+597,2023,Casualty,Manufacturing,Scotland,3.29,2,0,0,0.0,6718.18
+598,2021,Casualty,Manufacturing,South East,14.06,1,10000,4,49818.92,87884.16
+599,2021,General Liability,Manufacturing,Wales,2.8,1,5000,1,7878.38,11056.76
+600,2020,General Liability,Construction,Scotland,5.43,1,5000,1,34549.94,46346.78
+601,2021,Casualty,Manufacturing,Wales,7.54,2,25000,1,23590.18,32477.55
+602,2021,Casualty,Construction,Midlands,6.77,1,10000,3,74321.92,84988.22
+603,2021,Casualty,Manufacturing,Midlands,24.89,1,25000,6,84279.14,138190.53
+604,2020,General Liability,Professional Services,Wales,1.97,10,0,0,0.0,10978.49
+605,2021,General Liability,Logistics,South East,2.11,5,0,2,26680.45,44217.95
+606,2022,Casualty,Manufacturing,South East,1.99,2,25000,0,0.0,16602.11
+607,2021,Employers Liability,Retail,Wales,3.64,10,5000,0,0.0,18126.81
+608,2022,Employers Liability,Logistics,Scotland,9.68,1,0,2,19470.51,27039.74
+609,2022,General Liability,Logistics,North West,2.18,2,10000,0,0.0,5399.04
+610,2023,Employers Liability,Manufacturing,South East,9.77,2,25000,1,14444.28,17449.83
+611,2020,Casualty,Healthcare,London,4.59,2,25000,1,8634.96,13903.37
+612,2023,Casualty,Manufacturing,Midlands,2.06,1,5000,0,0.0,10113.25
+613,2023,Casualty,Logistics,Wales,1.32,2,25000,1,11485.22,16040.22
+614,2020,Casualty,Retail,London,1.54,2,0,1,8292.64,13846.44
+615,2024,General Liability,Logistics,Wales,2.81,5,0,0,0.0,14575.13
+616,2024,Employers Liability,Retail,Midlands,3.98,1,10000,2,15094.08,24565.0
+617,2020,Casualty,Construction,Midlands,11.5,1,0,5,57484.0,90178.31
+618,2021,Casualty,Professional Services,South East,7.84,1,5000,0,0.0,16627.41
+619,2024,Casualty,Logistics,South East,2.49,1,10000,0,0.0,17054.53
+620,2023,Employers Liability,Manufacturing,London,5.97,2,5000,1,26130.3,32038.86
+621,2021,Casualty,Construction,Wales,14.24,1,0,5,50296.36,78963.97
+622,2021,General Liability,Professional Services,Midlands,16.64,5,0,1,21255.24,39826.99
+623,2022,Casualty,Manufacturing,London,3.6,1,5000,2,45944.23,47513.66
+624,2022,Casualty,Healthcare,North West,8.77,1,5000,2,29517.31,51997.64
+625,2023,Employers Liability,Manufacturing,London,11.86,2,10000,4,30666.64,58514.58
+626,2022,Employers Liability,Retail,Scotland,1.56,1,10000,2,41123.75,49177.97
+627,2022,Casualty,Retail,London,3.13,2,5000,0,0.0,7523.46
+628,2023,Employers Liability,Healthcare,Scotland,21.2,2,25000,4,59633.32,82513.72
+629,2020,General Liability,Construction,Scotland,3.63,1,0,2,28784.02,51067.61
+630,2021,Employers Liability,Professional Services,Scotland,0.58,1,0,0,0.0,15310.59
+631,2023,Casualty,Manufacturing,North West,4.12,1,25000,0,0.0,10587.91
+632,2024,General Liability,Retail,London,9.85,1,5000,1,22287.82,41292.68
+633,2022,Casualty,Construction,London,4.5,1,50000,2,19175.62,33369.58
+634,2022,General Liability,Healthcare,North West,7.39,1,5000,1,6281.27,8504.24
+635,2021,Casualty,Logistics,Midlands,8.64,1,10000,2,31477.93,46641.29
+636,2022,Casualty,Retail,South East,3.5,2,5000,0,0.0,14178.56
+637,2022,Casualty,Healthcare,London,3.12,2,5000,0,0.0,10602.79
+638,2021,General Liability,Manufacturing,South East,4.99,2,5000,2,30040.92,56727.44
+639,2021,Casualty,Professional Services,Wales,5.08,1,10000,1,4191.14,7266.54
+640,2022,General Liability,Retail,Wales,4.65,1,5000,1,18340.95,30371.8
+641,2020,Employers Liability,Retail,North West,4.79,5,25000,0,0.0,15323.5
+642,2022,Casualty,Manufacturing,Wales,2.65,2,0,1,24702.59,20936.96
+643,2021,General Liability,Logistics,Wales,7.58,5,0,2,15239.04,26649.12
+644,2022,Casualty,Construction,Midlands,6.82,1,5000,1,23321.73,43331.25
+645,2021,Employers Liability,Professional Services,Midlands,1.76,2,10000,0,0.0,13380.94
+646,2024,Casualty,Retail,Midlands,3.41,2,25000,1,10370.84,18577.88
+647,2023,General Liability,Professional Services,Wales,4.78,1,5000,0,0.0,14374.13
+648,2023,Employers Liability,Retail,North West,3.08,2,10000,1,6526.22,9231.28
+649,2023,Employers Liability,Professional Services,Scotland,7.0,2,5000,0,0.0,13442.19
+650,2022,General Liability,Healthcare,Scotland,4.28,1,10000,2,20347.45,37121.63
+651,2020,Casualty,Retail,South East,5.04,1,25000,1,12312.62,21296.73
+652,2022,General Liability,Professional Services,Scotland,3.39,5,0,0,0.0,17782.22
+653,2023,Employers Liability,Construction,Scotland,1.11,10,5000,0,0.0,13387.79
+654,2023,General Liability,Healthcare,Midlands,1.07,1,50000,0,0.0,12981.99
+655,2022,Casualty,Healthcare,Midlands,6.77,1,25000,0,0.0,11034.64
+656,2021,Employers Liability,Construction,Wales,5.4,1,5000,2,16983.48,21862.58
+657,2021,General Liability,Professional Services,South East,6.09,2,5000,0,0.0,7423.97
+658,2022,General Liability,Manufacturing,London,4.92,1,0,0,0.0,6775.31
+659,2023,Casualty,Construction,South East,5.21,10,5000,2,47063.76,94543.81
+660,2023,General Liability,Professional Services,South East,8.83,1,25000,1,16219.61,22957.11
+661,2022,Casualty,Construction,North West,6.12,1,10000,1,21321.39,35639.64
+662,2024,General Liability,Construction,Wales,9.29,2,0,0,0.0,13979.56
+663,2023,Casualty,Retail,North West,5.05,5,0,0,0.0,9388.11
+664,2021,General Liability,Professional Services,South East,3.63,2,0,0,0.0,15258.4
+665,2021,Employers Liability,Manufacturing,South East,5.13,2,0,2,30899.0,57058.23
+666,2021,Casualty,Retail,South East,2.5,10,0,0,0.0,16921.97
+667,2021,Employers Liability,Construction,Scotland,3.44,1,5000,0,0.0,6692.87
+668,2021,Casualty,Logistics,North West,5.07,5,0,1,7665.53,10129.06
+669,2021,Employers Liability,Construction,South East,5.03,1,0,1,6930.33,10788.53
+670,2021,General Liability,Construction,Midlands,4.16,5,5000,0,0.0,18088.61
+671,2021,General Liability,Professional Services,Wales,1.7,2,0,0,0.0,12614.55
+672,2024,General Liability,Professional Services,Wales,7.0,1,0,0,0.0,17119.49
+673,2020,Employers Liability,Retail,Midlands,8.04,5,5000,1,8718.38,11594.34
+674,2022,Casualty,Manufacturing,Wales,14.16,1,0,5,85128.72,124719.62
+675,2022,Casualty,Retail,Scotland,6.11,1,5000,2,28154.96,45708.83
+676,2024,General Liability,Healthcare,Scotland,4.49,2,0,2,36513.99,43020.35
+677,2021,Employers Liability,Construction,London,2.21,1,10000,0,0.0,5326.08
+678,2022,General Liability,Logistics,London,12.74,2,25000,0,0.0,12808.56
+679,2024,General Liability,Construction,London,5.33,1,10000,1,7671.4,14167.35
+680,2024,Casualty,Construction,Wales,5.13,1,5000,2,26927.05,29775.78
+681,2024,Employers Liability,Retail,Scotland,3.75,1,25000,1,12181.52,21379.76
+682,2021,Casualty,Logistics,Scotland,3.59,1,10000,0,0.0,19769.67
+683,2021,General Liability,Logistics,Scotland,7.26,2,0,5,73453.74,137026.73
+684,2023,Casualty,Logistics,Midlands,2.19,5,5000,0,0.0,7073.98
+685,2024,Casualty,Retail,Scotland,13.98,10,25000,3,120827.8,134664.76
+686,2023,Casualty,Construction,Midlands,12.0,5,5000,4,55184.67,63031.3
+687,2023,Casualty,Retail,London,3.5,1,0,0,0.0,11255.8
+688,2021,General Liability,Professional Services,London,2.45,2,10000,1,14369.99,21673.79
+689,2023,Casualty,Professional Services,Wales,1.09,1,25000,0,0.0,12761.49
+690,2021,Casualty,Retail,London,1.87,1,0,0,0.0,11485.34
+691,2022,Casualty,Logistics,Wales,7.47,2,5000,1,27684.39,56051.8
+692,2022,Casualty,Construction,South East,5.59,1,0,3,30390.93,42002.26
+693,2022,Casualty,Retail,South East,6.33,1,10000,1,4184.18,6113.25
+694,2021,Casualty,Retail,North West,1.23,10,0,0,0.0,17596.47
+695,2021,General Liability,Retail,Wales,3.4,2,5000,0,0.0,19957.55
+696,2023,General Liability,Healthcare,North West,11.67,2,25000,1,26740.58,35352.9
+697,2021,General Liability,Professional Services,North West,4.19,1,5000,0,0.0,19124.5
+698,2023,Casualty,Logistics,South East,1.84,1,10000,1,2728.01,5000.0
+699,2021,Casualty,Manufacturing,Wales,4.14,5,5000,0,0.0,15666.94
+700,2022,Employers Liability,Logistics,South East,2.61,1,0,0,0.0,9434.57
+701,2022,General Liability,Manufacturing,North West,5.66,2,10000,1,4886.98,8226.73
+702,2020,Casualty,Healthcare,Wales,4.55,1,0,1,7687.79,12030.65
+703,2022,Casualty,Retail,North West,6.56,2,5000,1,17808.02,29847.75
+704,2021,Casualty,Healthcare,Scotland,1.91,1,0,0,0.0,16054.94
+705,2020,Casualty,Healthcare,Wales,3.27,5,10000,3,33804.76,58005.91
+706,2024,Casualty,Construction,Wales,9.61,5,25000,2,23311.83,38147.98
+707,2022,General Liability,Professional Services,North West,1.74,5,50000,0,0.0,9141.78
+708,2024,General Liability,Manufacturing,Scotland,2.22,1,5000,1,5668.2,8169.67
+709,2021,General Liability,Retail,Midlands,5.15,5,0,0,0.0,18955.5
+710,2023,General Liability,Manufacturing,South East,5.48,2,5000,1,38921.75,68578.77
+711,2023,Employers Liability,Logistics,North West,3.18,1,25000,0,0.0,8993.5
+712,2023,General Liability,Manufacturing,Wales,3.69,2,0,0,0.0,12717.9
+713,2022,Employers Liability,Logistics,South East,6.51,1,50000,2,33314.82,48435.56
+714,2022,Casualty,Professional Services,South East,8.12,1,5000,1,11456.02,18431.77
+715,2022,Casualty,Logistics,South East,2.12,5,50000,3,59216.44,80859.3
+716,2024,Casualty,Manufacturing,Midlands,5.78,1,25000,0,0.0,17541.19
+717,2024,General Liability,Manufacturing,London,12.92,2,25000,1,21696.69,34341.0
+718,2024,Employers Liability,Logistics,North West,4.13,1,5000,2,31537.46,61645.26
+719,2021,Casualty,Healthcare,London,2.1,5,0,0,0.0,5676.74
+720,2023,Employers Liability,Professional Services,London,2.04,10,5000,0,0.0,19001.62
+721,2024,Casualty,Construction,London,4.0,5,5000,5,73424.4,130305.21
+722,2021,Employers Liability,Retail,South East,9.25,1,0,1,4345.8,7543.85
+723,2020,Casualty,Manufacturing,Scotland,4.36,1,5000,0,0.0,16920.21
+724,2023,Casualty,Retail,South East,5.12,2,5000,1,15221.36,22083.07
+725,2023,Casualty,Construction,South East,2.23,1,10000,1,3845.19,7333.95
+726,2024,Casualty,Retail,Wales,8.92,1,10000,2,14544.37,24899.92
+727,2021,Casualty,Construction,Wales,2.01,2,0,1,10616.23,19775.12
+728,2023,Casualty,Logistics,London,3.15,2,50000,0,0.0,17810.25
+729,2021,Employers Liability,Healthcare,South East,6.97,10,0,0,0.0,17036.9
+730,2021,General Liability,Manufacturing,London,1.08,1,5000,0,0.0,5620.62
+731,2021,Casualty,Construction,Wales,5.06,1,5000,0,0.0,10683.31
+732,2024,General Liability,Retail,Scotland,2.17,1,25000,0,0.0,5520.74
+733,2023,General Liability,Manufacturing,North West,4.53,10,0,2,49139.42,78084.29
+734,2022,Casualty,Healthcare,London,3.5,5,5000,1,18694.97,25051.52
+735,2022,Casualty,Logistics,Scotland,19.57,5,10000,6,119609.77,207863.73
+736,2024,Casualty,Manufacturing,North West,3.4,10,0,1,28412.38,43036.99
+737,2022,Casualty,Construction,Midlands,16.28,2,10000,5,41011.65,63898.64
+738,2024,General Liability,Healthcare,London,6.76,2,25000,2,32656.82,60469.4
+739,2022,Casualty,Retail,London,2.56,1,50000,0,0.0,16573.57
+740,2022,General Liability,Healthcare,Midlands,5.65,2,0,0,0.0,12840.41
+741,2022,General Liability,Healthcare,Midlands,3.62,2,0,1,15289.82,21671.03
+742,2022,Casualty,Professional Services,London,5.31,2,5000,0,0.0,18957.94
+743,2023,General Liability,Healthcare,Midlands,2.72,10,5000,0,0.0,16995.18
+744,2022,Casualty,Healthcare,South East,14.63,10,0,3,83971.47,107927.82
+745,2021,Employers Liability,Manufacturing,North West,8.57,5,0,1,12116.88,17830.47
+746,2024,Casualty,Retail,North West,4.58,5,50000,1,10547.63,9375.91
+747,2022,Employers Liability,Manufacturing,North West,15.03,2,25000,2,99697.61,174219.93
+748,2022,General Liability,Manufacturing,South East,4.72,1,0,0,0.0,17041.49
+749,2024,Casualty,Construction,Midlands,9.66,1,5000,1,5215.13,6772.97
+750,2023,General Liability,Manufacturing,Scotland,4.6,2,5000,1,76128.51,135041.12
+751,2021,Employers Liability,Professional Services,Midlands,5.9,5,0,1,11297.31,22650.86
+752,2024,General Liability,Professional Services,London,4.23,1,10000,1,13772.88,26588.92
+753,2023,Employers Liability,Construction,Wales,4.79,10,10000,2,45422.91,57768.84
+754,2022,Employers Liability,Logistics,North West,5.05,1,25000,3,50431.86,58841.91
+755,2021,Casualty,Retail,Midlands,2.8,1,10000,0,0.0,10965.93
+756,2023,Casualty,Retail,Scotland,3.38,2,5000,1,24142.55,38963.4
+757,2023,General Liability,Manufacturing,London,3.85,1,10000,1,8008.21,14158.68
+758,2022,Casualty,Manufacturing,South East,5.26,1,0,3,63615.01,95108.45
+759,2024,Employers Liability,Logistics,South East,4.39,1,5000,0,0.0,19413.56
+760,2023,Employers Liability,Manufacturing,Scotland,10.19,5,5000,2,21080.02,33969.2
+761,2021,Casualty,Retail,London,8.11,2,0,1,7929.53,13236.91
+762,2022,Casualty,Healthcare,North West,3.91,2,0,0,0.0,13774.89
+763,2021,General Liability,Professional Services,Midlands,11.79,2,0,2,49123.71,79975.14
+764,2023,Casualty,Healthcare,London,16.63,1,25000,6,71766.69,113181.02
+765,2020,Employers Liability,Healthcare,South East,1.07,10,0,1,19981.26,31800.96
+766,2023,Casualty,Retail,Scotland,8.61,1,0,2,20637.3,23952.37
+767,2023,General Liability,Healthcare,Scotland,2.76,10,5000,0,0.0,15344.12
+768,2024,Casualty,Logistics,Midlands,7.85,2,10000,4,138017.91,176144.71
+769,2022,General Liability,Construction,Scotland,10.66,10,0,0,0.0,13800.97
+770,2024,Casualty,Manufacturing,Scotland,2.43,1,50000,0,0.0,16938.7
+771,2021,General Liability,Construction,London,1.23,2,25000,0,0.0,12126.18
+772,2024,Casualty,Professional Services,North West,8.04,1,5000,1,32168.83,55594.08
+773,2021,General Liability,Manufacturing,Midlands,4.93,1,10000,1,25708.24,36194.71
+774,2022,Employers Liability,Healthcare,London,1.39,2,0,0,0.0,19081.4
+775,2023,Casualty,Professional Services,North West,26.33,1,5000,1,7101.08,12865.39
+776,2021,Casualty,Manufacturing,London,6.94,2,10000,0,0.0,13008.93
+777,2021,Casualty,Logistics,Wales,7.16,1,0,2,24188.36,34912.32
+778,2023,General Liability,Logistics,London,11.66,1,0,5,55652.13,86702.35
+779,2023,General Liability,Logistics,Scotland,2.98,5,5000,0,0.0,7554.04
+780,2023,General Liability,Logistics,North West,4.91,2,0,2,10200.13,13063.92
+781,2023,Casualty,Healthcare,Midlands,1.78,2,25000,0,0.0,12622.46
+782,2022,Casualty,Construction,Midlands,2.93,2,0,0,0.0,5944.57
+783,2021,General Liability,Manufacturing,North West,5.87,5,10000,1,9145.98,17980.85
+784,2022,Casualty,Healthcare,Scotland,1.4,1,5000,3,25730.88,42366.69
+785,2021,Employers Liability,Logistics,South East,2.87,2,10000,3,69644.95,115985.5
+786,2024,Casualty,Construction,London,2.34,10,5000,0,0.0,7780.31
+787,2023,General Liability,Professional Services,Scotland,4.95,5,5000,0,0.0,14514.94
+788,2022,Casualty,Professional Services,Wales,6.7,2,25000,1,42358.36,69927.47
+789,2022,Casualty,Professional Services,North West,7.53,2,5000,1,32179.56,57680.47
+790,2024,General Liability,Logistics,London,9.02,5,5000,1,10663.75,19043.48
+791,2021,General Liability,Professional Services,Midlands,11.71,2,5000,1,18679.35,23125.84
+792,2023,Employers Liability,Retail,South East,6.86,1,10000,2,33452.02,46403.2
+793,2022,Casualty,Manufacturing,Wales,16.8,1,5000,3,45416.96,58924.79
+794,2023,Casualty,Manufacturing,Midlands,4.87,5,25000,0,0.0,8601.04
+795,2020,General Liability,Logistics,North West,3.97,1,0,1,13740.56,18106.84
+796,2024,General Liability,Retail,London,6.86,5,5000,2,20006.76,31421.19
+797,2024,Casualty,Healthcare,North West,3.85,1,10000,1,6882.29,10277.59
+798,2023,Casualty,Healthcare,London,16.39,2,10000,6,85687.16,141889.55
+799,2023,Casualty,Professional Services,Scotland,9.89,1,25000,0,0.0,8284.55
+800,2024,Employers Liability,Construction,South East,7.58,1,50000,2,16321.32,18342.19
