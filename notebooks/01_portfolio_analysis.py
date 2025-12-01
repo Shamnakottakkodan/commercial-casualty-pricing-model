@@ -3,7 +3,7 @@
 Portfolio Analysis for Commercial Casualty Pricing
 
 This script performs exploratory data analysis on the casualty_portfolio.csv dataset.
-You can convert it into a Jupyter Notebook if preferred.
+
 """
 
 import pandas as pd
